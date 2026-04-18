@@ -1,0 +1,62 @@
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 16px;
+    margin-top: 12px;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .product-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+  }
+  
+  .product-part-number {
+    font-size: 13px;
+    color: #666;
+    font-weight: 600;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #2e7d32; /* Trust green for pricing */
+    font-weight: 700;
+  }
+  
+  .product-card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-name {
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 16px 0;
+    line-height: 1.4;
+    font-weight: 500;
+  }
+  
+  .product-button {
+    background-color: #f37021; /* PartSelect Brand Orange */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background-color 0.2s, opacity 0.2s;
+  }
+  
+  .product-button:hover {
+    opacity: 0.9;
+    color: white;
+    text-decoration: none;
+  }
